@@ -124,7 +124,7 @@ describe('core-js-numbers', () => {
     'toNumber should convert any value to number or return the default',
     () => {
       assert.equal(tasks.toNumber(null, 0), 0);
-      assert.equal(tasks.toNumber('test', 0), 0);
+      assert.equal(tasks.toNumber('test', 0), 0); 
       assert.equal(tasks.toNumber('1', 0), 1);
       assert.equal(tasks.toNumber(42, 0), 42);
       // eslint-disable-next-line no-new-wrappers
